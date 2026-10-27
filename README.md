@@ -75,9 +75,7 @@ print('NN test accuracy:', round(accuracy_score(yte, y_pred),4))
 ```
 ### OUTPUT :
 ```
-/usr/local/lib/python3.13/dist-packages/keras/src/layers/core/dense.py:106: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
-  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
-4/4 ━━━━━━━━━━━━━━━━━━━━ 0s 19ms/step
+
 NN test accuracy: 0.87
 
 ```
